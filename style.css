@@ -6,9 +6,9 @@ body{
 }
 
 /* Class debugger all */
-.debug_all *{border:1px solid #F00;}
+/*.debug_all *{border:1px solid #F00;}*/
 /* Class debugger simple */
-.debug{border:1px solid #F00;}
+/*.debug{border:1px solid #F00;}*/
 
 img{border:0;}
 a{text-decoration:none;}
