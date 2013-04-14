@@ -5,9 +5,9 @@ body{
 	color:#666;
 }
 
-/* Class debuger all */
+/* Class debugger all */
 .debug_all *{border:1px solid #F00;}
-/* Class debuger simple */
+/* Class debugger simple */
 .debug{border:1px solid #F00;}
 
 img{border:0;}
