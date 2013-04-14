@@ -1,0 +1,140 @@
+body{
+	background:#F0F0F0 url(images/bg.png) repeat-x;
+	margin-top:0;
+	font:normal 14px Arial, Helvetica, sans-serif;
+	color:#666;
+}
+
+/* Class debuger all */
+.debug_all *{border:1px solid #F00;}
+/* Class debuger simple */
+.debug{border:1px solid #F00;}
+
+img{border:0;}
+a{text-decoration:none;}
+
+h1, h2{
+	font:normal 60px "Monotype Corsiva";
+	margin:0;
+}
+h2{font-size:30px;}
+
+.wrapper{
+	width:800px;
+	margin:0 auto;
+}
+
+#logo{
+	float:left;
+	padding:6px 0 0 0;
+}
+
+#like{
+	float:right;
+	padding:22px 0 0 0;
+}
+
+header{height:140px;}
+header > nav{
+	float:right;
+	clear:both;
+	margin:21px 0 0 0;
+	padding:0 0 0 0;
+}
+
+#nav_header{
+	float:right;
+	margin:0;
+	padding:0;
+}
+#nav_header > li{
+	list-style:none;
+	float:left;
+	color:#FFF;
+	font-size:16px;
+	padding:0 5px 0 5px;
+}
+#nav_header > li > a{
+	display:block;
+	color:#FFF;
+}
+#nav_header > li > a:hover{color:#CCC;}
+
+.content{
+	border-bottom:1px solid #CCC;
+	padding:0 0 15px 0;
+}
+
+.box{
+	width:390px;
+	margin:10px 0 0 0;
+}
+.box > .box_list{
+	margin:0;
+	padding:0;
+}
+.box > .box_list > li{
+	list-style:none;
+	border-bottom:1px dashed #911D00;
+}
+.box > .box_list > li > a{
+	display:block;
+	padding:8px 0 8px 0;
+	color:#666;
+}
+
+#box_blog{
+	float:left;
+	border-right:1px solid #CCC;
+	padding:0 10px 20px 0;
+}
+#box_blog a:hover{color:#000;}
+#box_flickr{
+	float:right;
+}
+#box_flickr > h1{float:left;}
+#box_flickr > #flickr{
+	float:right;
+	margin:23px 0 0 0;
+}
+#box_flickr > #box_photos{
+	margin:0;
+	padding:0 0 0 5px;
+	clear:both;
+}
+#box_flickr > #box_photos > li{
+	list-style:none;
+	float:left;
+	margin:0 5px 5px 5px;
+}
+
+footer{clear:both;}
+footer > #support{
+	position:relative;
+	border-top:1px solid #CCC;
+	margin:10px 0 0 0;
+}
+footer > #support > h2{padding:10px 0 0 0;}
+footer > #support > .support{
+	margin:10px 5px 0 0;
+}
+footer > #copyright{
+	text-align:right;
+	color:#000;
+	font-size:12px;
+	margin:25px 0 0 0;
+}
+
+#go_top{
+	position:fixed;
+	bottom:0;
+	right:25px;
+	background-color:#333;
+	display:none;
+}
+
+#forkme{
+	position:absolute;
+	right:0;
+	top:0;
+}
