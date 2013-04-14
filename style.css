@@ -89,9 +89,7 @@ header > nav{
 	padding:0 10px 20px 0;
 }
 #box_blog a:hover{color:#000;}
-#box_flickr{
-	float:right;
-}
+#box_flickr{float:right;}
 #box_flickr > h1{float:left;}
 #box_flickr > #flickr{
 	float:right;
@@ -115,9 +113,7 @@ footer > #support{
 	margin:10px 0 0 0;
 }
 footer > #support > h2{padding:10px 0 0 0;}
-footer > #support > .support{
-	margin:10px 5px 0 0;
-}
+footer > #support > .support{margin:10px 5px 0 0;}
 footer > #copyright{
 	text-align:right;
 	color:#000;
