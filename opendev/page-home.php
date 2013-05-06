@@ -4,7 +4,7 @@
 		<div class="content">
 			<h1>O projeto</h1>
 
-			<p>O OpenDev é um grupo de tecnologia, em Nova Friburgo, com fins técnicos. Um lugar onde desenvolvedores encontram empreendedores e empreendendores encontram desenvolvedores.</p>
+			<p>O OpenDev é um grupo de tecnologia, em Nova Friburgo, com fins técnicos. Com encontros presenciais, buscamos discutir questões tecnológicas e colocá-las em prática.</p>
 
 			<p>Propostas do grupo:</p>
 			<ul>
