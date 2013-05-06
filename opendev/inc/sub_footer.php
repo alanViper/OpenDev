@@ -5,7 +5,7 @@
 			<?php query_posts ('posts_per_page = 6'); ?>
 				<?php if (have_posts()): while (have_posts()) : the_post();?>
 				<li>
-					<a href="<?php the_Permalink()?>"><?php the_time('j/m/Y');?> - <?php the_title();?></a>
+					<a href="<?php the_Permalink()?>"><?php the_time('d/m/Y');?> - <?php the_title();?></a>
 				</li>
 				<?php endwhile; else:?>
 				<li>
